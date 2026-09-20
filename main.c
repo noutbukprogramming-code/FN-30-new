@@ -1,12 +1,11 @@
 #include <stdio.h>
-int main(){
-    int son;
-    scanf("%d", &son);
-    if(son%2==0){
-        printf("true");
-    }
-    else{
-        printf("false");
-    }
-    
+
+int kvadrat(int n){
+    return n*n;
+}
+int main (){
+    int n;
+    scanf("%d", &n);
+
+    printf("%d", kvadrat(n));
 }
